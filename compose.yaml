@@ -36,3 +36,5 @@ services:
       UPLOAD_LIMIT: 20M
     ports:
       - 8001:80
+    depends_on:
+      - database
